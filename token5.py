@@ -6,23 +6,23 @@ from bs4 import BeautifulSoup
 import time, random, multiprocessing, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, urllib, urllib.parse
 
 
-token = LINE() 
+token = LINE("virojano@coin-one.com","112233we") 
 token.log("Auth Token : " + str(token.authToken)) 
 token.log("Timeline Token : " + str(token.tl.channelAccessToken)) 
 
-token1 = LINE() 
+token1 = LINE("virojano1@coin-one.com","112233we") 
 token1.log("Auth Token : " + str(token1.authToken)) 
 token1.log("Timeline Token : " + str(token1.tl.channelAccessToken)) 
 
-token2 = LINE() 
+token2 = LINE("virojano2@coin-one.com","112233we") 
 token2.log("Auth Token : " + str(token2.authToken)) 
 token2.log("Timeline Token : " + str(token2.tl.channelAccessToken)) 
 
-token3 = LINE() 
+token3 = LINE("virojano3@coin-one.com","112233we") 
 token3.log("Auth Token : " + str(token3.authToken)) 
 token3.log("Timeline Token : " + str(token3.tl.channelAccessToken)) 
 
-token4 = LINE() 
+token4 = LINE("virojano4@coin-one.com","112233we") 
 token4.log("Auth Token : " + str(token4.authToken)) 
 token4.log("Timeline Token : " + str(token4.tl.channelAccessToken))
 
